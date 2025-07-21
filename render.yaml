@@ -2,7 +2,7 @@ services:
   - type: worker
     name: telegram-binance-alert
     runtime: python
-    buildCommand: ""
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "python coin_alert_bot.py"
     envVars:
       - key: TOKEN

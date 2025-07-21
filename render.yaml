@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: telegram-binance-alert
+    runtime: python
+    buildCommand: ""
+    startCommand: "python coin_alert_bot.py"
+    envVars:
+      - key: TOKEN
+        value: 8069404664:AAEeX3JwNyvxKsrXIQQWIG0s6SFLR2NlIrs
+      - key: CHAT_ID
+        value: 270326108

@@ -7,10 +7,10 @@ import time
 from telegram import Bot
 
 # === Cấu hình ===
-TOKEN = 'THAY_TOKEN_BOT_TELEGRAM_VÀO_ĐÂY'
-CHAT_ID = 'THAY_CHAT_ID_CỦA_BẠN_VÀO_ĐÂY'
-COINS = ['BTCUSDT', 'ETHUSDT']  # Danh sách coin theo dõi
-THRESHOLD_PERCENT = 3  # % thay đổi để cảnh báo
+TOKEN = '8069404664:AAEeX3JwNyvxKsrXIQQWIG0s6SFLR2NlIrs'
+CHAT_ID = '270326108'
+COINS = ['BTCUSDT', 'ETHUSDT', 'TRBUSDT', 'ENAUSDT', 'ETHFIUSDT', 'PEPEUSDT', 'WIFUSDT', 'BOMEUSDT', 'LDOUSDT', 'ADAUSDT', 'XRPUSDT']  # Danh sách coin theo dõi
+THRESHOLD_PERCENT = 1  # % thay đổi để cảnh báo
 INTERVAL = 60  # Thời gian kiểm tra (giây)
 
 bot = Bot(token=TOKEN)
